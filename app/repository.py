@@ -1,5 +1,5 @@
 from typing import List, Optional, Dict
-from schemas import MenuItem, Category, OrderCreate, OrderResponse, OrderItemResponse
+from .schemas import MenuItem, Category, OrderCreate, OrderResponse, OrderItemResponse
 
 class MenuRepository:
     def __init__(self):
